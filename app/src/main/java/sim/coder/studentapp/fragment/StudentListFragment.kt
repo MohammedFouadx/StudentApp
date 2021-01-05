@@ -207,7 +207,9 @@ class StudentListFragment : Fragment(), InputDealog.Callbacks {
     }
 
     fun onStudentDeleted(students: List<Student>){
-
+        add_new_student.visibility = View.VISIBLE
+        text_no_student.visibility = View.VISIBLE
+        text_add_one.visibility = View.VISIBLE
 
 
     }
