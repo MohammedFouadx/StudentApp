@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Student_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/add_new_student"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/ic_baseline_add_circle_24"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/text_no_student"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_no_student"
+            android:padding="5dp"
+            android:textColor="#9A0E0E"
+            android:gravity="center"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/text_add_one"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_one"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="26sp" />
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

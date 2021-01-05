@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="text_no_student">There are no students!</string>
+    <string name="add_one">Tap to add one</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
